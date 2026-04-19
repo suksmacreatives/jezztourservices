@@ -1,0 +1,75 @@
+<nav class="navbar-custom">
+    <div class="container-fluid px-4 px-md-5 d-flex align-items-center justify-content-between">
+        
+        <a class="navbar-brand-custom" href="#">
+            <img src="/images/logojezz.png" alt="Logo" class="logo-img">
+        </a>
+
+        <div class="nav-box-container d-none d-lg-flex">
+            <ul class="nav-links">
+                <li><a href="/index.html" class="nav-item-link">Home</a></li>
+                <li><a href="/about.html" class="nav-item-link">About</a></li>  
+                <li class="dropdown-custom">
+                    <a href="javascript:void(0)" class="nav-item-link">TOURS <i class="bi bi-chevron-down"></i></a>
+                    <ul class="dropdown-menu-custom">
+                        <li><a href="/trips/all-trip.html">Bali Trips</a></li>
+                        <li><a href="/activiti/bali-activities.html">Bali Activities</a></li>
+                        <li><a href="/dropoff/dropoff-location.html">Drop Off</a></li>
+                    </ul>
+                </li>
+                <li><a href="/gallery.html" class="nav-item-link">Gallery</a></li>
+                <li><a href="/blog/all-blog.html" class="nav-item-link">Blog</a></li>
+            </ul>
+        </div>
+
+        <div class="nav-action-button d-none d-lg-block">
+            <a href="https://api.whatsapp.com/send?phone=6281339104238&text=Hello%20Fun%20Bali%20Tour!%20%F0%9F%8C%B4%0A%0AI%20have%20some%20questions%20about%20your%20tour%20services.%20Could%20you%20please%20help%20me%3F%20Thank%20you!" 
+            class="btn-reservasi"
+            target="_blank">
+                <i class="bi bi-chat-dots-fill me-2"></i> RESERVE NOW
+            </a>
+        </div>
+
+        <div class="d-lg-none">
+            <button class="hamburger-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<div class="offcanvas offcanvas-top custom-offcanvas" tabindex="-1" id="offcanvasNavbar">
+    <div class="offcanvas-body pt-5">
+        <ul class="mobile-nav-links list-unstyled">
+            <li><a href="/index.html" class="nav-link-item">HOME</a></li>
+            <li><a href="/about.html" class="nav-link-item">ABOUT</a></li>
+            
+            <li class="mobile-dropdown">
+                <a class="nav-link-item d-flex justify-content-between align-items-center" 
+                   data-bs-toggle="collapse" href="#collapseTours" role="button" aria-expanded="false">
+                    TRIP <i class="bi bi-chevron-down small"></i>
+                </a>
+                <div class="collapse" id="collapseTours">
+                    <ul class="submenu-mobile list-unstyled ps-3">
+                        <li><a href="/trips/all-trip.html">Bali Tours</a></li>
+                        <li><a href="/activiti/bali-activities.html">Bali Activities</a></li>
+                        <li><a href="/dropoff/dropoff-location.html">Drop Off</a></li>
+                    </ul>
+                </div>
+            </li>
+            
+            <li><a href="/blog/all-blog.html" class="nav-link-item">BLOG</a></li>
+            <li><a href="/gallery.html" class="nav-link-item">GALLERY</a></li>
+            
+            <li class="mt-5 px-2">
+                <a href="https://api.whatsapp.com/send?phone=6281339104238&text=Hello%20Fun%20Bali%20Tour!%20%F0%9F%8C%B4%0A%0AI%20have%20some%20questions%20about%20your%20tour%20services.%20Could%20you%20please%20help%20me%3F%20Thank%20you!" 
+                class="btn-reservasi"
+                target="_blank">
+                    <i class="bi bi-chat-dots-fill me-2"></i> RESERVE NOW
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
